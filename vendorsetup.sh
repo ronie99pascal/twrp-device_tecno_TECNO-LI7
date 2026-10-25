@@ -33,8 +33,8 @@ elif [ -n "$BASH_VERSION" ]; then
 	SCRIPT_SOURCE="$BASH_SOURCE"
 	IS_ZSH=0
 else
-	echo "ERROR! This script requires bash or zsh."
-	exit 1
+	echo "NOTE:Baypassing interactive shell check for gitHub Actions.."
+	#exit1
 fi
 
 fetch_mt6789_common_repo() {
