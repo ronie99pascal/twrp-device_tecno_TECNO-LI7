@@ -80,7 +80,7 @@ if [ "$1" = "$FDEVICE" -o "$FOX_BUILD_DEVICE" = "$FDEVICE" ]; then
 			echo "NOTE: Running in ZSH mode"
 		else
 			echo "ERROR! This script couldn't detect the device properly. Make sure you're using bash or zsh."
-			exit 1
+			#exit 1
 		fi
 	fi
 
