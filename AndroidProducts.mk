@@ -5,7 +5,7 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/twrp_LI7.mk
+    $(LOCAL_DIR)/LI7.mk
 
 COMMON_LUNCH_CHOICES := \
-    twrp_LI7-eng
+    LI7-eng
