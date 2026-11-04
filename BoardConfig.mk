@@ -20,5 +20,6 @@ TARGET_RECOVERY_DEVICE_MODULES := libinit_TECNO-LI7
 TW_DEVICE_VERSION := LI7_by_rama982
 
 # Brightness
+TW_BRIGHTNESS_PATH := "/sys/class/leds/lcd-backlight/brightness"
 override TW_DEFAULT_BRIGHTNESS := 80
 override TW_MAX_BRIGHTNESS := 511
